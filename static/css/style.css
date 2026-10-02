@@ -161,3 +161,8 @@ footer span { font-size: 13px; }
 @media (prefers-reduced-motion: no-preference) {
   a, .button, .quick-card, .feature-card { transition: transform .2s ease, background-color .2s ease, border-color .2s ease; }
 }
+
+.footer-recommendations { grid-column: 1 / -1; font-size: 12px; line-height: 1.7; }
+.footer-recommendations p + p { margin-top: 4px; }
+.footer-recommendations a { color: var(--muted); text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
+.footer-recommendations a:hover { color: var(--brand-soft); }
